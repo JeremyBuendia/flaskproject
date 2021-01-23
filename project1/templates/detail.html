@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+
+
+
+{% block main %}
+
+<div class="container">
+	
+	<ul class="list-group">
+        <li class="list-group-item" style="text-align: center;"><h2>{{article.title}}</h2></li>
+	  <li class="list-group-item">{{article.content}}</li>
+
+	</ul>
+	<a class="btn btn-default" href="/" role="button">返回</a>
+</div>
+{% endblock %}
